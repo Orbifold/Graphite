@@ -1,0 +1,14 @@
+﻿<Window x:Class="CallOuts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Graphite1="clr-namespace:Orbifold.Graphite;assembly=Orbifold.Graphite"
+        WindowStartupLocation="CenterOwner"
+    Title="Callout" Height="768" Width="1024">
+  <Border BorderBrush="DimGray" BorderThickness="1" Margin="10">
+        <Border.Background>
+            <ImageBrush ImageSource="/CallOuts;component/Resources/map.PNG" />
+        </Border.Background>
+        <Graphite1:GraphCanvas x:Name="diagram">
+ 
+        </Graphite1:GraphCanvas>
+  </Border>
+</Window>

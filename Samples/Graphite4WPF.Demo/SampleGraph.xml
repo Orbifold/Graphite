@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <Person id="0" FirstName="James" LastName="Maxwell" Born="1931" Died="1979" Links="2,1" Foto="maxwell.jpg"/>
+  <Person id="6" FirstName="Roger" LastName="Penrose" Born="1930" Foto="penrose.gif"/>
+  <Person id="7" FirstName="Ludwig" LastName="Boltzmann" Foto="Boltzmann.jpg" Died="1906" Born="1844" Links="0" />
+  <Idea id="1" Title="Electromagnetism" Links="3" />
+  <Idea id="8" Title="Twistors" Links="6" />
+  <Idea id="5" Title="Lightcone" Links="1,6" />
+  <Node id="2" Title="Wave equations"/>
+  <Node id="9" Title="Relativity" Links="5,10"/>
+  <Idea id="10" Title="Gravitation" Info="aka general relativity"/>
+  <Person id="11" FirstName="Albert" LastName="Einstein" Foto="einstein.jpg" Died="1879" Born="1955" Links="10" />
+  <Dummy id="qqd" prop="Just to show that the import will jump over this one."/>
+  <Idea id="3" Title="QED" Info="Quantum electro dynamics"/>
+  <Idea id="4" Title="QCD" Info="Quantum chromo dynamics" Links="3"/>
+  <Idea id="12" Title="DNA" Info="Genetic material" />
+  <Node id="14" Title="Genetic algorithms" Links="12,15"/>
+  <Idea id="15" Title="Evolution" Info="Natural selection" />
+  <Person id="16" FirstName="Charles" LastName="Darwin" Foto="darwin.jpg" Died="1809" Born="1882" Links="15" />
+  <Person id="13" FirstName="James" LastName="Watson" Foto="watson.jpg" Born="1928" Links="12" />
+
+</Graph>

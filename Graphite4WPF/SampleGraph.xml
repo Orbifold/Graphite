@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Graph>
+  <Node id="0" Title="Maxwell" Links="2,3,1"/>
+  <Node id="1" Title="Orbifold" />
+  <Node id="2" Title="Conifold" Links="5,6" />
+  <Node id="3" Title="Strings" Links="4" />
+  <Node id="4" Title="Hilbert space"  />
+  <Node id="5" Title="Gauss"  />
+  <Node id="6" Title="Curvature" Links="7,1" />
+  <Node id="7" Title="Gravitation" />
+  <Node id="8" Title="Anomalies" Links="3,5" />
+  <Node id="9" Title="Supersymmetry" Links="3" />
+  <Node id="10" Title="Gauge invariance" Links="3" />
+  <Node id="10" Title="Lie algebra" Links="12" />
+  <Node id="11" Title="Picard distance" Links="8" />
+  
+</Graph>

@@ -1,0 +1,13 @@
+0/Maxwell/2,3,1
+1/Orbifold/
+2/Conifold/5,6
+3/Strings/4
+4/Hilbert space/
+5/Gauss/
+6/Curvature/7,1
+7/Gravitation/
+8/Anomalies/3,5
+9/Supersymmetry/3
+10/Gauge invariance/3
+11/Lie algebras/12
+12/Picard distance/8
